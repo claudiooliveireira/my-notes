@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyNotes</title>
+    <link rel="shortcut icon" href="logoMyNotes.png" type="image/x-icon">
+    <!-- bootstrap icons -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- estilos -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- JS -->
+     <script src="js/script.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>MyNotes</h1>
+        <!-- Campo de busca por notas Search -->
+        <div id="search-container">
+            <i class="bi bi-search"></i>
+            <input type="text"  id="search-input" placeholder="Busque por uma nota">
+        </div>
+        <!-- Campo para exportar CSV -->
+         <button id="export-notes">
+            Exportar CSV <i class="bi bi-download"></i>
+         </button>
+    </header>
+
+    <!-- Campo adicionar nota Form -->
+    <div id="add-note-container">
+        <input type="text" id="note-content" placeholder="O que deseja anotar?">
+        <button class="add-note"><i class="bi bi-plus-lg"></i> </button> <!-- botão de + -->
+    </div>
+
+    <!-- Campo das notas criadas Notas -->
+    <div id="notes-container">
+        
+        
+    </div>
+
+    
+</body>
+</html>
+
+
+
+<!--
+<div class="note fixed">
+            <textarea placeholder="Adicione algun texto"></textarea>
+            <i class="bi bi-pin"></i>  icon de fixa
+            <i class="bi bi-x-lg"></i>icon de deletar
+            <i class="bi bi-file-earmark-plus"></i> icon de duplicar
+        </div>
+        <div class="note">
+            <textarea placeholder="Adicione algun texto"></textarea>
+            <i class="bi bi-pin"></i>  icon de fixa
+            <i class="bi bi-x-lg"></i> icon de deletar
+            <i class="bi bi-file-earmark-plus"></i> icon de duplicar
+        </div>
+    -->
